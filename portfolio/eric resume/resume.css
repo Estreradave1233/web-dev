@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+span {
+    margin-top: 7px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+body {
+    height: 150vh;
+    width: 100%;
+    background-image: url(2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center ;
+}
+
+.content {
+    height: 1000px;
+    width: 650px;
+    background-color: white;
+    background: #fff;
+    border: 3px solid #000;
+    border-radius: 0;
+    margin-right: 50px;
+}
+
+.white {
+    color: rgb(251, 250, 250);
+}
+
+.blue {
+    display:grid;
+    grid-template-columns: 200px 1fr;
+    height: 150px;
+    background-color: rgb(102, 178, 255);
+}
+
+.picture {
+    image-resolution:inherit ;
+    border-radius: 150px;
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.name{
+    font-weight: bolder;
+    font-size: 35px;
+    display: grid;
+    place-items: center;
+}
+
+.lime {
+    margin-top: 2px;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    place-items: center;
+    padding-right: 245px;
+    background-color: rgb(205, 205, 0);
+}
+
+.whole {
+    display:flex;
+    flex: 240px 240px;
+    gap: 1rem;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.left-side {
+    margin-top: 50px;
+}
+
+.about-me {
+    margin-bottom: 25px;
+}
+
+.contact-content {
+   display: flex;
+   margin-bottom: 25px;
+}
+
+.contact-content-p {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-right: 10px;
+}
+
+.education {
+    margin-top: 25px;
+}
+.education-content {
+    display:grid;
+    grid-template-columns: 80px 1fr;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.experience-content {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+}
+
+.experience-content-p {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.interest {
+    margin-top: 10px;
+}
+
+.fapfap {
+    font-size: 24px;
+    margin: 20px;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}

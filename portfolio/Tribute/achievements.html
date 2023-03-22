@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/achievements.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="icons/profile-picture.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <a href="../html/index.html">
+          <img src="../icons/home.svg">
+          <div>Home</div>
+        </a>
+      </div>
+      <div class="sidebar-link">
+        <a href="../html/about.html">
+          <img src="../icons/about-us.jpg">
+          <div>About Us</div>
+        </a>
+      </div>
+      <div class="sidebar-link">
+          <img src="../icons/activity.jpg">
+          <div>Activities</div>
+      </div>
+      <div class="sidebar-link">
+        <a href="../html/contact.html">
+          <img src="../icons/contact-us-20.png">
+          <div>Contact Us</div>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="channel-pictures/background-image.webp">
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-1.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+               Rex Orange County
+              </p>
+              <p class="video-author">
+                @RexOrangeCounty
+              </p>
+              <p class="video-stats">
+                1.58M subscribers
+              </p>
+            </div>
+          </div>
+          <div class="header2">
+            <a  class="header3" href="index.html">Home</a>
+            <a class="header3" href="achievements.html
+            ">Achievements</a>
+            <a class="header3" href="songs.html">Songs</a>
+          </div>
+        </div>
+        </div>
+        <hr>
+        <div class="achievements-photos">
+          <div class="card shadow">
+            <div>
+              <img class="achievements-picture1" src="photos/british-male-solo.jpg" alt="">
+            </div>
+            <div>
+              <p class="achievements-description">Nominated for the Best Album at the NME Awards in 2019 for "Apricot Princess".</p>
+            </div>
+          </div>
+
+          <div class="card shadow">
+            <div>
+              <img class="achievements-picture2" src="photos/apricot-princess.jpg" alt="">
+            </div>
+            <div>
+              <p class="achievements-description">Nominated for the Mercury Prize in 2018 <br> for his album "Apricot Princess".</p>  
+            </div>
+          </div>
+
+          <div class="card shadow">
+            <div>
+              <img class="achievements-picture3" src="photos/best-album.jpg" alt="">
+            </div>
+            <div>
+              <p class="achievements-description">Nominated for the Best British Male <br> Solo Artist at the BRIT Awards in 2019.".</p>
+            </div>
+          </div>
+
+          <div class="card shadow">
+            <div>
+              <img class="achievements-picture4" src="photos/best-solo-act.jpg" alt="">
+            </div>
+            <div>
+              <p class="achievements-description">Won the Best Solo Act at the GQ Men of the Year Awards in 2019".</p> 
+            </div>
+          </div>
+        </div>
+      </section>
+  </body>
+</html>
